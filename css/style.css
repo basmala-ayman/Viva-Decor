@@ -848,6 +848,10 @@ footer .container-xl .content .box {
     gap: 30px;
 }
 
+footer .container-xl .content .box:last-child{
+    height: fit-content;
+}
+
 @media (max-width: 767px) {
     footer .container-xl .content {
         margin-top: 20px;
