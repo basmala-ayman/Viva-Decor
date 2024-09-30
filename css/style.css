@@ -40,6 +40,12 @@ body {
     }
 }
 
+@media (max-width: 399px) {
+    .title {
+        font-size: 2rem;
+    }
+}
+
 /* ending components */
 
 
@@ -229,6 +235,7 @@ body {
     position: fixed;
     bottom: 15px;
     right: 15px;
+    z-index: 100;
     width: 80px;
     height: 80px;
     line-height: 80px;
@@ -432,7 +439,7 @@ body {
 @media (max-width: 991px) {
     .steps .container-xl .content .text {
         width: 100%;
-        gap: 50px;
+        gap: 60px;
     }
 }
 
@@ -524,3 +531,173 @@ body {
 }
 
 /* ending steps section */
+
+/* starting customers section */
+
+.customers {
+    padding: var(--section-padding) 0;
+}
+
+.customers .container-xl .content {
+    display: flex;
+    gap: 50px;
+    position: relative;
+}
+
+@media (max-width: 991px) {
+    .customers .container-xl .content {
+        flex-direction: column;
+        gap: 40px;
+    }
+}
+
+.customers .container-xl .content .image {
+    width: 50%;
+    position: relative;
+    height: 90vh;
+}
+
+.customers .container-xl .content .image img {
+    width: 100%;
+    height: 85%;
+    object-fit: cover;
+}
+
+@media (max-width: 991px) {
+    .customers .container-xl .content .image {
+        display: none;
+    }
+}
+
+.customers .container-xl .content .text {
+    width: 50%;
+}
+
+@media (max-width: 991px) {
+    .customers .container-xl .content .text {
+        width: 100%;
+    }
+}
+
+.customers .container-xl .content .box {
+    padding-top: 25px;
+    padding-left: 25px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    gap: 25px;
+    width: 83%;
+    height: 80%;
+}
+
+.customers .container-xl .content .box .item {
+    padding: 35px;
+    background-color: var(--main-color);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 25px;
+    max-height: 100%;
+    width: 50%;
+}
+
+@media (max-width: 991px) {
+    .customers .container-xl .content .box {
+        position: relative;
+        width: 100%;
+        padding: 0;
+    }
+
+    .customers .container-xl .content .box .item {
+        padding: 25px;
+    }
+}
+
+@media (max-width: 767px) {
+    .customers .container-xl .content .box {
+        flex-direction: column;
+    }
+
+    .customers .container-xl .content .box .item {
+        width: 100%;
+        text-align: center;
+    }
+
+    .customers .container-xl .content .box .item:nth-child(2) {
+        display: none;
+    }
+}
+
+.customers .container-xl .content .box .item i {
+    font-size: 60px;
+}
+
+.customers .container-xl .content .box .item i+p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.9;
+}
+
+@media (max-width: 399px) {
+    .customers .container-xl .content .box .item i+p {
+        font-size: 18px;
+    }
+}
+
+.customers .container-xl .content .box .item .info {
+    display: flex;
+    gap: 20px;
+}
+
+@media (max-width: 767px) {
+    .customers .container-xl .content .box .item .info {
+        margin: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.customers .container-xl .content .box .item .info .sub-info p:first-child {
+    font-size: 22px;
+    font-weight: var(--main-font-weight);
+}
+
+.customers .container-xl .content .box .item .info .sub-info p:last-child {
+    font-size: 18px;
+    font-weight: 500;
+    color: #929292;
+}
+
+.customers .container-xl .content .icons {
+    width: fit-content;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.customers .container-xl .content .icons i {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #F1F1F1;
+    color: #464646;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.customers .container-xl .content .icons i:first-child {
+    margin-right: 20px;
+}
+
+@media (max-width: 991px) {
+    .customers .container-xl .content .icons {
+        position: relative;
+        margin: auto;
+    }
+}
+
+/* ending customers section */
