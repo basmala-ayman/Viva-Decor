@@ -216,6 +216,17 @@ body {
     }
 }
 
+@media (max-width: 399px){
+    .home .container-xl .box-2 .text .counter .item span:first-child {
+        font-size: 36px;
+    }
+    
+    .home .container-xl .box-2 .text .counter .item span:last-child {
+        font-size: 13px;
+    }
+    
+}
+
 .home .container-xl .box-2 .image {
     padding-right: 30px;
     height: 270px;
