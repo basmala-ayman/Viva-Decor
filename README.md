@@ -1,11 +1,20 @@
 # Viva Decor Website
 
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Project Structure](#project-structure)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+
 ---
 
-## Overview:
+## [Project Overview](#project-overview)
+
 Viva Decor is an interior design website that showcases services like lighting, interior, and outdoor design. It features a sleek design built using modern technologies like **HTML**, **CSS**, **Bootstrap**, and **Font Awesome**. The project presents a responsive, elegant layout optimized for various devices, providing an immersive user experience.
 
-## Structure:
+---
+
+## [Project Structure](#project-structure)
 
 1. **HTML (index.html)**:
    - **Meta Information**: Includes meta tags for viewport settings, character encoding, and a description for SEO purposes.
@@ -33,7 +42,10 @@ Viva Decor is an interior design website that showcases services like lighting, 
      - **Grid Layouts**: Sections like "Services" and "Footer" use CSS grids for a flexible and modern layout.
      - **Responsiveness**: Media queries ensure that fonts, spacing, and layouts adjust for tablet and mobile screens, providing a seamless experience across all devices.
 
-## Features:
+---
+
+## [Features](#features)
+
 1. **Responsive Design**:
    - Optimized for different screen sizes with **media queries**.
    - Mobile-first approach ensures that all elements are accessible on small screens.
@@ -49,7 +61,10 @@ Viva Decor is an interior design website that showcases services like lighting, 
    - **Collapsible Navbar**: Adapts to smaller screens with a toggle button.
    - **Testimonial Slider**: Includes arrows for navigating through customer reviews.
 
-## Technologies:
+---
+
+## [Technologies Used](#technologies-used)
+
 - **HTML5**: Provides the structure and content.
 - **CSS3**: Handles all the styling, layout, and responsiveness.
 - **Bootstrap 5.3**: Ensures a modern and responsive design framework.
