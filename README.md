@@ -68,5 +68,3 @@ Viva Decor is an interior design website that showcases services like lighting, 
 - **HTML5**: Provides the structure and content.
 - **CSS3**: Handles all the styling, layout, and responsiveness.
 - **Bootstrap 5.3**: Ensures a modern and responsive design framework.
-- **Font Awesome**: Supplies icons used throughout the interface.
-- **Google Fonts**: The "Inter" font is used for a sleek, modern look.
